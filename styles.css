@@ -1,0 +1,43 @@
+.title-section{
+    text-align:center;
+    padding:10px 15px;
+    box-shadow:5px 5px 5px 5px black;
+}
+main{
+    font-family:"Courier New";
+    background-color:#bf00ff;
+}
+body{
+    font-family:"Courier New";
+    margin:0;
+}
+#projects{
+    background-color:#bf00ff;
+    text-align:center;
+    margin:5% auto;
+    width:50%;
+    box-shadow:5px 5px 5px 5px black;
+}
+#projects:hover{
+    transition:ease 1s;
+    background-color:#df7fff;
+}
+#projects h3:hover{
+    transition:ease 1s;
+    color:#bebebe;
+}
+.hidden{
+    display:none;
+}
+.hidden video{
+    display:flex;
+    justify-content:space-around;
+}
+nav{
+    margin-top:5%;
+}
+nav ul{
+    list-style-type:none;
+    display:flex;
+    justify-content:space-around;
+}
