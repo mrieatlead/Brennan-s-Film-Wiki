@@ -41,3 +41,21 @@ nav ul{
     display:flex;
     justify-content:space-around;
 }
+nav a{
+    text-decoration:none;
+    color:black;
+}
+@media screen and (max-width:900px){
+    main{
+        font-size:25px;
+    }
+    #projects{
+        width:75%;
+    }
+    .hidden video{
+        width:250px;
+    }
+}
+@media screen and (min-width:1000px){
+    
+}
